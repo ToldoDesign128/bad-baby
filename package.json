@@ -1,22 +1,17 @@
 {
   "name": "bad-baby",
   "version": "1.0.0",
-  "description": "Custom theme for Bed & Breakfast Baby",
+  "description": "Custom theme for Bed &amp; Breakfast Baby in Milano Marittima",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "mix watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://ToldoDesign128@github.com/ToldoDesign128/bad-baby.git"
   },
-  "keywords": [
-    "Wordpress",
-    "Hotel",
-    "B&B"
-  ],
-  "author": "Federico Toldo",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ToldoDesign128/bad-baby/issues"
@@ -28,5 +23,8 @@
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.56.1",
     "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "hamburgers": "^1.2.1"
   }
 }

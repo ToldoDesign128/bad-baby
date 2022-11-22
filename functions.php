@@ -117,7 +117,7 @@ function add_baby_scripts() {
 
 	wp_enqueue_style( 'baby-style', get_template_directory_uri() . '/style.min.css');
 
-	wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', true );
+	wp_enqueue_script("Baby-scriptjs", get_template_directory_uri().'/assets/js/script.js', array("jquery"), null, true);
 
 }
 add_action( 'wp_enqueue_scripts', 'add_baby_scripts' );

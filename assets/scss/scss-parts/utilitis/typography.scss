@@ -1,0 +1,22 @@
+$primary-font: 'Playfair Display';
+
+h1, h2, h3, h4, h5, h6, p, b, em, caption, ul, ol, li, a, button{ color: $primary-color;}
+
+h1{ font-family: $primary-font; font-size: 84px; letter-spacing: -1.5px; font-weight: 400;}
+h2{ font-family: $primary-font; font-size: 52px; letter-spacing: -0.5px; font-weight: 400;}
+h3{ font-family: $primary-font; font-size: 42px; letter-spacing: 0px; font-weight: 400;}
+h4{ font-family: $primary-font; font-size: 30px; letter-spacing: 0.25px; font-weight: 600;}
+h5{ font-family: $primary-font; font-size: 21px; letter-spacing: 0px; font-weight: 600;}
+h6{ font-family: $primary-font; font-size: 17px; letter-spacing: 0.15px; font-weight: 600;}
+
+p{ font-family: $primary-font; font-size: 14px; letter-spacing: 0.5px; font-weight: 400;
+    b{ font-family: $primary-font; font-weight: 600;}
+    em{ font-family: $primary-font; font-weight: 400; font-style: italic;}
+    caption{ font-family: $primary-font;  font-size: 10px; font-weight: 400; font-style: italic;}
+}
+
+ul{ font-family: $primary-font; font-size: 14px; letter-spacing: 0.5px; font-weight: 400;}
+ol{ font-family: $primary-font; font-size: 14px; letter-spacing: 0.5px; font-weight: 400;}
+li{ font-family: $primary-font; font-size: 14px; letter-spacing: 0.5px; font-weight: 400;}
+
+a{ font-family: $primary-font; font-size: 14px; letter-spacing: 0.5px; font-weight: 400;}

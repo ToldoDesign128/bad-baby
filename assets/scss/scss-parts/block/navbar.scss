@@ -1,0 +1,123 @@
+@import "/assets/scss/bootsrap/mixins/breakpoints";
+
+header{
+    background-color: $primary-color;
+    position: fixed;
+    z-index: 10;
+
+    nav{        
+        a{
+            h5{color: $secondary-color;}
+
+            &:hover{
+                color: #ffff;
+                text-decoration: none;
+            }
+        }
+
+        ul{
+            list-style: none;
+            text-align: right;
+
+            li{
+                a{
+                    color: $secondary-color;
+                    text-decoration: none;
+                    transition: ease-in-out;
+                    transition-duration: 0.2s;
+        
+                    h5{color: $secondary-color;}
+        
+                    &:hover{
+                        color: #ffff;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            button{
+                border-radius: 5px;
+                background: $secondary-color;
+                color: $black-color;
+                border: 1px solid $secondary-color;
+                transition: ease-in-out;
+                transition-duration: 0.2s;
+
+                &:hover{
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                    border: 1px solid $secondary-color;
+                }
+            }
+        }
+    }    
+
+    .hamburger{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+
+        ul{
+            color: #ffff;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) { 
+
+    header{ 
+            nav{   
+                #nav-items{
+                    display: none;
+                }
+                .hamburger{
+                    display: block;
+                }
+            }
+            .open{
+                height: 100vh;
+    
+                .mobile{
+                    display: block; 
+    
+                    ul{
+                        li{
+    
+                            a{
+                                color: $secondary-color;
+                                text-decoration: none;
+                                transition: ease-in-out;
+                                transition-duration: 0.2s;
+                                font-size: 24px;
+    
+                                &:active{
+                                    color: #ffff;
+                                    text-decoration: underline;
+                                }
+                            }
+    
+                            button{
+                                margin-top: 5rem;
+                                border-radius: 5px;
+                                background: $secondary-color;
+                                color: $black-color;
+                                border: 1px solid $secondary-color;
+                                transition: ease-in-out;
+                                transition-duration: 0.2s;
+                                font-size: 24px;
+                
+                                &:active{
+                                    background-color: $primary-color;
+                                    color: $secondary-color;
+                                    border: 1px solid $secondary-color;
+                                }
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }              
+ }
