@@ -34,11 +34,11 @@
             <!-- Menu Mobile -->
             <div class="row mobile mt-5 ml-3">
                 <ul class="col-12">
-                    <li class="my-3"><a href="#" class=""> Ci presentiamo </a></li>
-                    <li class="my-3"><a href="#" class=""> Servizi </a></li>
-                    <li class="my-3"><a href="#" class=""> Pacchetti </a></li>
-                    <li class="my-3"><a href="#" class=""> Galleria </a></li>
-                    <li class="my-3"><a href="#" class=""><button type="button" class="py-1 px-3"> Prenota ora </button></a></li>
+                    <li class="mobile-list-item my-3"><a href="#" class=""> Ci presentiamo </a></li>
+                    <li class="mobile-list-item my-3"><a href="#" class=""> Servizi </a></li>
+                    <li class="mobile-list-item my-3"><a href="#" class=""> Pacchetti </a></li>
+                    <li class="mobile-list-item my-3"><a href="#" class=""> Galleria </a></li>
+                    <li class="mobile-list-item my-3"><a href="#" class=""><button type="button" class="py-1 px-3"> Prenota ora </button></a></li>
                 </ul>
             </div>
         </div>        
