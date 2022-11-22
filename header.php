@@ -22,7 +22,7 @@
                     <li class="col-md-2"><a href="#" class=""> Servizi </a></li>
                     <li class="col-md-2"><a href="#" class=""> Pacchetti </a></li>
                     <li class="col-md-2"><a href="#" class=""> Galleria </a></li>
-                    <li class="col-md-3"><a href="#" class=""><button type="button" class="py-1 px-3"> Prenota ora </button></a></li>
+                    <li class="col-md-3"><a href="#" class=""><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
                 </ul>
                 <!-- Icona hamburger -->
                 <div class="hamburger hamburger--collapse col-2">
