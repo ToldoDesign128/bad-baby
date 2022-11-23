@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-12 col-md-8">
                 <h1 class="display-3">Hotel Baby</h1>
-                <h3 class="lead mb-0">Nel cuore di Milano Marittima a pochi passi dal mare</h3>
+                <h3 class="lead mb-0">Nel cuore di Milano Marittima <br> a pochi passi dal mare</h3>
             </div>
         </div>
         <div class="row mt-5">
