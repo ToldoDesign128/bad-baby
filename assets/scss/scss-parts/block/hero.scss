@@ -23,7 +23,7 @@
 
     .container{
         position: relative;
-        top: 50%;
+        bottom: -40%;
         z-index: 2;
 
         h1{
@@ -43,6 +43,7 @@
             transition: ease-in-out;
             transition-duration: 0.2s;
             font-weight: 600;
+            width: 100%;
 
             &:hover{
                 background-color: $secondary-color;
@@ -61,5 +62,13 @@
         background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
         opacity: 0.6;
         z-index: 1;
+    }
+}
+
+@include media-breakpoint-down(md){
+    .hero{
+        .container{
+            bottom: -50%;
+        }
     }
 }

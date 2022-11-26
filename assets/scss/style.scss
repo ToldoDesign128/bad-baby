@@ -26,7 +26,10 @@ Text Domain: bad-baby
 @import "/assets/scss/scss-parts/utilitis/color.scss";
 @import "/assets/scss/scss-parts/utilitis/typography.scss";
 @import "/assets/scss/scss-parts/utilitis/base.scss";
+@import "/assets/scss/scss-parts/utilitis/helpers.scss";
 
 //Block
 @import "/assets/scss/scss-parts/block/navbar.scss";
 @import "/assets/scss/scss-parts/block/hero.scss";
+@import "/assets/scss/scss-parts/block/presentation.scss";
+@import "/assets/scss/scss-parts/block/servizi.scss";

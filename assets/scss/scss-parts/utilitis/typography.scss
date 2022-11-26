@@ -9,7 +9,7 @@ h4{ font-family: $primary-font; font-size: 30px; letter-spacing: 0.25px; font-we
 h5{ font-family: $primary-font; font-size: 21px; letter-spacing: 0px; font-weight: 600;}
 h6{ font-family: $primary-font; font-size: 17px; letter-spacing: 0.15px; font-weight: 600;}
 
-p{ font-family: $primary-font; font-size: 16px; letter-spacing: 0.5px; font-weight: 400;
+p{ font-family: $primary-font; font-size: 18px; letter-spacing: 0px; font-weight: 400;
     b{ font-family: $primary-font; font-weight: 600;}
     em{ font-family: $primary-font; font-weight: 400; font-style: italic;}
     caption{ font-family: $primary-font;  font-size: 12px; font-weight: 400; font-style: italic;}
@@ -20,3 +20,12 @@ ol{ font-family: $primary-font; font-size: 16px; letter-spacing: 0.5px; font-wei
 li{ font-family: $primary-font; font-size: 16px; letter-spacing: 0.5px; font-weight: 400;}
 
 a{ font-family: $primary-font; font-size: 16px; letter-spacing: 0.5px; font-weight: 400;}
+
+@include media-breakpoint-down(md){
+    h1{font-size: 52px;}
+    h2{font-size: 42px;}
+    h3{font-size: 28px;}
+    h4{font-size: 21px;}
+    h5{font-size: 20px;}
+    h6{font-size: 17px;}
+}
