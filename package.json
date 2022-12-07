@@ -25,6 +25,8 @@
     "sass-loader": "^12.6.0"
   },
   "dependencies": {
-    "hamburgers": "^1.2.1"
+    "@splidejs/splide": "^4.1.4",
+    "hamburgers": "^1.2.1",
+    "swiper": "^8.4.5"
   }
 }

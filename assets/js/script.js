@@ -13,3 +13,27 @@
             jQuery(".container").removeClass("open");
             jQuery(".hamburger").removeClass("is-active");
         });
+
+
+//Splide
+
+var splide = new Splide( '.splide', {
+    lazyLoad: 'nearby',
+    type : 'loop',
+    perPage: 3,
+    gap    : '2rem',
+    breakpoints: {
+      640: {
+        type : 'loop',
+        perPage: 2,
+        gap    : '.7rem',
+      },
+      480: {
+        type : 'loop',
+        perPage: 1,
+        gap    : '.7rem',
+      },
+    },
+  } );
+  
+  splide.mount();

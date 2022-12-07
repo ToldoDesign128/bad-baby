@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@200;300;400;500;600&display=swap);
 /*
 Theme Name: B&Baby
 Theme URI: https://wordpress.org/themes/twentytwenty/
@@ -4750,125 +4751,105 @@ progress {
   transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-/* Playfair Display Regular */
-@font-face {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/../font/Playfair Display/PlayfairDisplay-Regular.ttf");
-}
-/* Playfair Display Italic */
-@font-face {
-  font-family: "Playfair Display";
-  font-style: italic;
-  font-weight: 400;
-  src: url("/../font/Playfair Display/PlayfairDisplay-Italic.ttf");
-}
-/* Playfair Display Semi-bold */
-@font-face {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 600;
-  src: url("/../font/Playfair Display/PlayfairDisplay-SemiBold.ttf");
-}
-/* Playfair Display Semi-bold Italic */
-@font-face {
-  font-family: "Playfair Display";
-  font-style: italic;
-  font-weight: 600;
-  src: url("/../font/Playfair Display/PlayfairDisplay-SemiBoldItalic.ttf");
-}
 h1, h2, h3, h4, h5, h6, p, b, em, caption, ul, ol, li, a, button {
-  color: #B49889;
+  color: #4e7e6c;
 }
 
 h1 {
-  font-family: "Playfair Display";
-  font-size: 84px;
+  font-family: "Playfair Display", serif;
+  font-size: 100px;
   letter-spacing: -1.5px;
   font-weight: 400;
 }
 
 h2 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 52px;
   letter-spacing: -0.5px;
   font-weight: 400;
 }
 
 h3 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 42px;
   letter-spacing: 0px;
   font-weight: 400;
 }
 
 h4 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 30px;
   letter-spacing: 0.25px;
   font-weight: 600;
 }
 
 h5 {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 21px;
   letter-spacing: 0px;
   font-weight: 600;
 }
 
 h6 {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   letter-spacing: 0.15px;
   font-weight: 600;
 }
 
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 p {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   letter-spacing: 0px;
   font-weight: 400;
 }
 p b {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 p em {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 p caption {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 400;
   font-style: italic;
 }
 
 ul {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 0.5px;
   font-weight: 400;
 }
 
 ol {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 0.5px;
   font-weight: 400;
 }
 
 li {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 0.5px;
   font-weight: 400;
 }
 
 a {
-  font-family: "Playfair Display";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -4895,7 +4876,7 @@ a {
   }
 }
 html, body {
-  background-color: #f9f5f1;
+  background-color: #DEF5E5;
   margin: 0;
   padding: 0;
 }
@@ -4905,12 +4886,15 @@ html, body {
 }
 
 header {
-  background-color: #B49889;
+  background-color: #4e7e6c;
   position: fixed;
   z-index: 10;
 }
+header .logo img {
+  max-height: 48px;
+}
 header nav a h5 {
-  color: #f9f5f1;
+  color: #DEF5E5;
 }
 header nav a:hover {
   color: white;
@@ -4920,14 +4904,18 @@ header nav ul {
   list-style: none;
   text-align: right;
 }
+header nav ul li {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
 header nav ul li a {
-  color: #f9f5f1;
+  color: #DEF5E5;
   text-decoration: none;
   transition: ease-in-out;
   transition-duration: 0.2s;
 }
 header nav ul li a h5 {
-  color: #f9f5f1;
+  color: #DEF5E5;
 }
 header nav ul li a:hover {
   color: white;
@@ -4935,16 +4923,16 @@ header nav ul li a:hover {
 }
 header nav ul button {
   border-radius: 5px;
-  background: #f9f5f1;
-  border: 1px solid #f9f5f1;
+  background: #DEF5E5;
+  border: 1px solid #DEF5E5;
   transition: ease-in-out;
   transition-duration: 0.2s;
-  font-weight: 600;
+  font-size: 16px;
 }
 header nav ul button:hover {
-  background-color: #B49889;
-  color: #f9f5f1;
-  border: 1px solid #f9f5f1;
+  background-color: #4e7e6c;
+  color: #DEF5E5;
+  border: 1px solid #DEF5E5;
 }
 header .hamburger {
   display: none;
@@ -4969,8 +4957,12 @@ header .mobile ul {
   header .open .mobile {
     display: block;
   }
+  header .open .mobile .mobile-list-item button {
+    margin-top: 15rem;
+    width: 100%;
+  }
   header .open .mobile ul li a {
-    color: #f9f5f1;
+    color: #DEF5E5;
     text-decoration: none;
     transition: ease-in-out;
     transition-duration: 0.2s;
@@ -4983,17 +4975,17 @@ header .mobile ul {
   header .open .mobile ul li button {
     margin-top: 5rem;
     border-radius: 5px;
-    background: #f9f5f1;
+    background: #DEF5E5;
     color: #212427;
-    border: 1px solid #f9f5f1;
+    border: 1px solid #DEF5E5;
     transition: ease-in-out;
     transition-duration: 0.2s;
     font-size: 24px;
   }
   header .open .mobile ul li button:active {
-    background-color: #B49889;
-    color: #f9f5f1;
-    border: 1px solid #f9f5f1;
+    background-color: #4e7e6c;
+    color: #DEF5E5;
+    border: 1px solid #DEF5E5;
   }
 }
 .hero {
@@ -5020,27 +5012,26 @@ header .mobile ul {
   z-index: 2;
 }
 .hero .container h1 {
-  color: #f9f5f1;
+  color: #DEF5E5;
   text-shadow: 2px 2px 2px #212427;
 }
 .hero .container h3 {
-  color: #f9f5f1;
+  color: #DEF5E5;
   text-shadow: 2px 2px 2px #212427;
 }
 .hero .container button {
   border-radius: 5px;
-  background: #B49889;
-  border: 1px solid #f9f5f1;
-  color: #f9f5f1;
+  background: #4e7e6c;
+  border: 1px solid #DEF5E5;
+  color: #DEF5E5;
   transition: ease-in-out;
   transition-duration: 0.2s;
-  font-weight: 600;
   width: 100%;
 }
 .hero .container button:hover {
-  background-color: #f9f5f1;
-  color: #B49889;
-  border: 1px solid #f9f5f1;
+  background-color: #DEF5E5;
+  color: #4e7e6c;
+  border: 1px solid #DEF5E5;
 }
 .hero .overlay {
   position: absolute;
@@ -5059,22 +5050,132 @@ header .mobile ul {
   }
 }
 .presentazione img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: auto;
+  max-height: 500px;
   border-radius: 10px;
 }
+.presentazione .presentazione-team img {
+  max-height: 100%;
+}
 .presentazione h2 {
-  color: #212427;
+  color: #26463a;
 }
 .presentazione p {
   color: #212427;
 }
 
 .servizi {
-  background-color: #B49889;
+  background-color: #4e7e6c;
 }
-.servizi .container h2 {
+.servizi h2 {
   text-align: center;
-  color: #f9f5f1;
+  color: #DEF5E5;
+}
+.servizi h5 {
+  text-align: center;
+  color: #DEF5E5;
+}
+.servizi .pulsanti button {
+  border-radius: 5px;
+  background: #4e7e6c;
+  border: 1px solid #DEF5E5;
+  color: #DEF5E5;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+.servizi .pulsanti button:hover {
+  background-color: #DEF5E5;
+  color: #4e7e6c;
+  border: 1px solid #DEF5E5;
+}
+.servizi li {
+  height: auto;
+}
+.servizi article {
+  margin: 0 2rem;
+  background-color: #DEF5E5;
+  position: relative;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.servizi article img {
+  width: 100%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+}
+.servizi article h4 {
+  padding: 1rem 0;
+  text-align: center;
+  color: #26463a;
+  opacity: 0.7;
+  transition: all 0.4s ease-in-out;
+}
+.servizi article p {
+  display: none;
+}
+.servizi article:hover, .servizi article :focus, .servizi article :active {
+  background-color: #26463a;
+}
+.servizi article:hover h4, .servizi article :focus h4, .servizi article :active h4 {
+  color: #DEF5E5;
+  opacity: 1;
+}
+.servizi .splide__pagination {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .servizi h2 {
+    font-size: 36px;
+  }
+}
+.formule h2 {
+  text-align: center;
+  color: #26463a;
+}
+.formule .card {
+  padding: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+.formule .card .card-formula {
+  background-color: #4e7e6c;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.formule .card .card-formula img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 0 0 10px;
+}
+.formule .card .card-formula .card-formula-text {
+  padding: 2rem;
+}
+.formule .card .card-formula .card-formula-text h4 {
+  color: #DEF5E5;
+}
+.formule .card .card-formula .card-formula-text p {
+  margin-top: 20%;
+  color: #DEF5E5;
+}
+.formule .card:hover .card-formula {
+  background-color: #26463a;
+  transform: scale(110%);
+}
+
+@media (max-width: 767.98px) {
+  .formule .card .card-formula img {
+    border-radius: 10px 10px 0 0;
+  }
+  .formule .card:hover .card-formula {
+    transform: scale(100%);
+  }
 }

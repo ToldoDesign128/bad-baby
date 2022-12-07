@@ -5,6 +5,12 @@ header{
     position: fixed;
     z-index: 10;
 
+    .logo{
+        img{
+            max-height: 48px;
+        }
+    }
+
     nav{        
         a{
             h5{color: $secondary-color;}
@@ -20,6 +26,8 @@ header{
             text-align: right;
 
             li{
+                display: inline-block;
+                margin-left: 1.5rem;
                 a{
                     color: $secondary-color;
                     text-decoration: none;
@@ -41,7 +49,7 @@ header{
                 border: 1px solid $secondary-color;
                 transition: ease-in-out;
                 transition-duration: 0.2s;
-                font-weight: 600;
+                font-size: 16px;
 
                 &:hover{
                     background-color: $primary-color;
@@ -68,6 +76,7 @@ header{
 @include media-breakpoint-down(md) { 
 
     header{ 
+
             nav{   
                 #nav-items{
                     display: none;
@@ -81,6 +90,14 @@ header{
     
                 .mobile{
                     display: block; 
+
+                    .mobile-list-item{
+
+                        button{
+                            margin-top: 15rem;
+                            width: 100%;
+                        }
+                    }
     
                     ul{
                         li{

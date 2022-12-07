@@ -15,14 +15,15 @@
         <div  class="container menu">
             <nav class="row align-items-center">
                 <!-- Logo -->
-                <div class="col-md-3 col-10"><a href="#" class=""><h5 class="m-0"> Hotel Baby </h5></a></div>
+                <div class="logo col-md-1 col-10"><a href="#" class=""><img src="<?php echo get_template_directory_uri() . '/assets/images/icon/Logo_foglia.svg';?>" alt=""></a></div>
                 <!-- Menu Desktop -->
-                <ul id="nav-items" class="col-md-9 row align-items-center m-0 p-0">
-                    <li class="col-md-3"><a href="#" class=""> Ci presentiamo </a></li>
-                    <li class="col-md-2"><a href="#" class=""> Servizi </a></li>
-                    <li class="col-md-2"><a href="#" class=""> Pacchetti </a></li>
-                    <li class="col-md-2"><a href="#" class=""> Galleria </a></li>
-                    <li class="col-md-3"><a href="#" class=""><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
+                <ul id="nav-items" class="col-md-11 m-0 p-0">
+                    <li><a href="#" class=""> Ci presentiamo </a></li>
+                    <li><a href="#" class=""> Servizi </a></li>
+                    <li><a href="#" class=""> Pacchetti </a></li>
+                    <li><a href="#" class=""> Info </a></li>
+                    <li><a href="#" class=""> Galleria </a></li>
+                    <li><a href="#" class=""><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
                 </ul>
                 <!-- Icona hamburger -->
                 <div class="hamburger hamburger--collapse col-2">
@@ -37,8 +38,9 @@
                     <li class="mobile-list-item my-3"><a href="#" class=""> Ci presentiamo </a></li>
                     <li class="mobile-list-item my-3"><a href="#" class=""> Servizi </a></li>
                     <li class="mobile-list-item my-3"><a href="#" class=""> Pacchetti </a></li>
+                    <li class="mobile-list-item my-3"><a href="#" class=""> Info </a></li>
                     <li class="mobile-list-item my-3"><a href="#" class=""> Galleria </a></li>
-                    <li class="mobile-list-item my-3"><a href="#" class=""><button type="button" class="py-1 px-3"> Prenota ora </button></a></li>
+                    <li class="mobile-list-item my-3"><a href="#" class=""><button type="button" class="py-3 px-3"> Prenota ora </button></a></li>
                 </ul>
             </div>
         </div>        
