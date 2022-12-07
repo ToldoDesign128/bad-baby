@@ -71,8 +71,8 @@
 
         <div class="container mt-5">
             <div class="pulsanti row justify-content-md-center mt-5 px-3">
-                <div class="col-12 col-md-4 col-lg-3 my-3"><a href="#"><button class="py-3">Prenota Ora</button></a></div>
-                <div class="col-12 col-md-4 col-lg-3 my-3"><a href="#"><button class="py-3">Chiedi un preventivo</button></a></div>
+                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="#"><button class="py-3">Prenota Ora</button></a></div>
+                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="#"><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
 

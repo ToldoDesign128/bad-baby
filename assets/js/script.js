@@ -23,12 +23,12 @@ var splide = new Splide( '.splide', {
     perPage: 3,
     gap    : '2rem',
     breakpoints: {
-      640: {
+      840: {
         type : 'loop',
         perPage: 2,
         gap    : '.7rem',
       },
-      480: {
+      580: {
         type : 'loop',
         perPage: 1,
         gap    : '.7rem',
