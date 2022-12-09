@@ -4,6 +4,8 @@ header{
     background-color: $primary-color;
     position: fixed;
     z-index: 10;
+    transition: all ease-in-out;
+    transition-duration: 0.2s;
 
     .logo{
         img{
@@ -11,7 +13,8 @@ header{
         }
     }
 
-    nav{        
+    nav{  
+
         a{
             h5{color: $secondary-color;}
 
@@ -94,7 +97,7 @@ header{
                     .mobile-list-item{
 
                         button{
-                            margin-top: 15rem;
+                            margin-top: 12rem;
                             width: 100%;
                         }
                     }
@@ -105,7 +108,7 @@ header{
                             a{
                                 color: $secondary-color;
                                 text-decoration: none;
-                                transition: ease-in-out;
+                                transition: all ease-in-out;
                                 transition-duration: 0.2s;
                                 font-size: 24px;
     

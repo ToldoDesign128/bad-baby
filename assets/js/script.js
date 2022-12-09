@@ -17,8 +17,10 @@
 
 //Splide
 
-var splide = new Splide( '.splide', {
-    lazyLoad: 'nearby',
+var elms = document.getElementsByClassName( 'splide' );
+
+for ( var i = 0; i < elms.length; i++ ) {
+  new Splide( elms[ i ] ,{
     type : 'loop',
     perPage: 3,
     gap    : '2rem',
@@ -34,6 +36,5 @@ var splide = new Splide( '.splide', {
         gap    : '.7rem',
       },
     },
-  } );
-  
-  splide.mount();
+  } ).mount();
+}

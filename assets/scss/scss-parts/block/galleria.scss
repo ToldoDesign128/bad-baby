@@ -1,0 +1,30 @@
+.galleria{
+    background-color: $primary-color;
+
+    h2{
+        color: $secondary-color;
+        text-align: center;
+    }
+
+    li{
+        padding: 2rem;
+
+        article{
+            border-radius: 10px;
+            height: 400px;
+            width: 100%;
+    
+            img{
+                height: 100%;
+                max-width: 100%;
+                object-fit: none;
+                display: block;
+                border-radius: 10px;        
+            }
+        }
+    }
+
+    .splide__pagination{
+        display:none;
+    }
+}
