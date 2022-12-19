@@ -126,6 +126,7 @@ function add_baby_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'add_baby_scripts' );
 
+
 // Custom post type
 
 require dirname(__FILE__).'/functions-parts/cpt-galleria.php';

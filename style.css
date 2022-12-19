@@ -5213,3 +5213,40 @@ header .mobile ul {
 .galleria .splide__pagination {
   display: none;
 }
+
+.dove-siamo {
+  background-color: #4e7e6c;
+}
+.dove-siamo h2 {
+  color: #DEF5E5;
+  text-align: center;
+}
+.dove-siamo iframe {
+  width: 100%;
+  height: 400px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+footer ul li {
+  list-style: none;
+  padding: 0.5rem 0;
+}
+footer ul li a {
+  text-decoration: none;
+}
+footer ul li .social a svg {
+  fill: #26463a;
+}
+footer .credits {
+  background: #26463a;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+footer .credits a {
+  text-decoration: none;
+}
+footer .credits a:hover {
+  color: #DEF5E5;
+}

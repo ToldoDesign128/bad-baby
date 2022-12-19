@@ -30,19 +30,19 @@
     <section class="presentazione my-5">
         <div class="container pt-5">
             <div class="row">
-                <div class="col-lg-5 presentazione-team col-12 d-none d-lg-flex"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" alt="Staff"> </div>
+                <div class="col-lg-5 presentazione-team col-12 d-none d-lg-flex"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="Staff"> </div>
                 <div class="col-lg-5 col-12 offset-lg-2 offset-0 row m-auto">
                     <h2 class="col-12 mb-md-5 mb-3"> Ci presentiamo </h2>
                     <p class="col-12 mt-md-5 mt-3"> In prestigiosa posizione centrale a Milano Marittima l’Hotel Baby si affaccia sul noto Viale 2 Giugno a pochi passi dalla spiaggia. </p>
                     <p class="col-12"> La struttura medio piccola offre un ottimo confort per quei viaggiatori che vogliono godersi un soggiorno in puro stile romagnolo accompagnati dal piacere di sentirsi a proprio agio. </p>
-                    <div class="col-12 d-lg-none my-5"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png'; ?>" alt="Hotel Baby"> </div>
+                    <div class="col-12 d-lg-none my-5"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png'; ?>" loading=lazy alt="Hotel Baby"> </div>
                     <p class="col-12"> La gestione è familiare e custodisce con passione questa struttura da ormai 20 anni.</p>
                     <p class="col-12"> Il nostro hotel è il punto di partenza ideale per chi vuole scoprire Milano Marittima con la comodità e l’accoglienza che ti fanno sentire a casa. </p>
                 </div>
             </div>
             <div class="row mt-md-5 mt-2">
                 <div class="col-12 py-md-5 py-2">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/presentazione2.jpg'; ?>" alt="Hotel Baby">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/presentazione2.jpg'; ?>" loading=lazy alt="Hotel Baby">
                 </div>
             </div>
 
@@ -87,7 +87,7 @@
             <div class="row my-5">
                 <div class="card col-12 col-md-6">
                     <div class="card-formula row">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" alt="" class="col-md-4 col-12">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="" class="col-md-4 col-12">
                         <div class="card-formula-text col-md-8 col-12">
                             <h4>B&B</h4>
                             <p> Alla scoperta di Milano Marittima e dintorni, pernottamento e colazione. </p>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="card col-12 col-md-6">
                     <div class="card-formula row">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" alt="" class="col-md-4 col-12">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="" class="col-md-4 col-12">
                         <div class="card-formula-text col-md-8 col-12">
                             <h4>B&B con Mare</h4>
                             <p>B&B con l'aggiunta di lettini ed ombrellone in spiaggia</p>
@@ -119,6 +119,51 @@
 
         <div class="my-4">
             <?php get_template_part('template-parts/loop-galleria');?>
+        </div>
+    </section>
+
+    <!-- Form -->
+    <section class="form my-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <h2 class="mb-5">Hai delle domande?</h2>
+                    <?php echo apply_shortcodes('[contact-form-7 id="16" title="Form di contatto"]'); ?>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h2 class="mb-5">Info</h2>
+                    <p>Orario colazione:dalle 7.30 alle 11.00 <br> La sala ristorante si trova al piano rialzato <br> colazione extra 10€ a persona.</p>
+                    <p>Orario check-in/check-out:</p>
+                    <ul> 
+                        <li>check-in: consegna camere dalle ore 14:00</li> 
+                        <li>check-out: entro le ore 10:00Orario portineria: 24h</li> 
+                    </ul>
+                    <p>Orari Cassa: 8:00-21:00 la Direzione segnala che non vengono accettati assegni e american express </p>
+                    <ul>
+                       <li> Pagamenti con bonifico non possono essere accettati alla partenza. </li>
+                       <li> I clienti che desiderano fattura dovranno comunicarlo all'arrivo, fornendo i dati dell'azienda. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dove siamo -->
+    <section class="dove-siamo mb-5 py-5">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2> Dove siamo </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d302.45647866781525!2d12.352082831560695!3d44.27376204272575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132cb473596c5cdb%3A0x632f586f981abad1!2sHotel%20Baby!5e0!3m2!1sit!2sit!4v1671464644650!5m2!1sit!2sit" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </div>
     </section>
 

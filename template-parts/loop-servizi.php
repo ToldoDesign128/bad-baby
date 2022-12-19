@@ -12,7 +12,7 @@
 
 				<li class="splide__slide">
 					<article>
-						<img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+						<img src="<?php echo get_the_post_thumbnail_url();?>" loading=lazy alt="">
 						<h4><?php echo the_title();?></h4>
 						<p><?php echo the_content();?></p>
 					</article>
