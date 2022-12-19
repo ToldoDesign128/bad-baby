@@ -5214,6 +5214,10 @@ header .mobile ul {
   display: none;
 }
 
+.form ul li {
+  font-size: 14px;
+}
+
 .dove-siamo {
   background-color: #4e7e6c;
 }
@@ -5236,8 +5240,21 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
 }
+footer ul li a:hover {
+  color: #212427;
+}
+footer ul li .social {
+  display: flex;
+  align-items: center;
+}
 footer ul li .social a svg {
   fill: #26463a;
+}
+footer ul li .social a svg:hover {
+  fill: #212427;
+}
+footer ul li .social a:nth-child(2) {
+  margin: 0 1rem;
 }
 footer .credits {
   background: #26463a;

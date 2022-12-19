@@ -9,13 +9,26 @@ footer{
 
             a{
                 text-decoration: none;
+
+                &:hover{
+                    color: $black-color;
+                }
             }
 
             .social{
+                display: flex;
+                align-items: center;
+                
                 a{
-
                     svg{
                         fill: $dark-color;
+                        &:hover{
+                            fill: $black-color;
+                        }
+                    }
+
+                    &:nth-child(2){
+                        margin: 0 1rem;
                     }
                 }
             }
