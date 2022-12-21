@@ -20,14 +20,14 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-xl-2 col-lg-4 col-md-6 col-12 my-3"><a href="#"><button class="py-3">Prenota Ora</button></a></div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12 my-3"><a href="#"><button class="py-3">Chiedi un preventivo</button></a></div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-12 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it"><button class="py-3">Prenota Ora</button></a></div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 my-3"><a href="https://hotelbaby.comodohotel.it/"><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
     </section>
 
     <!-- Presentazione -->
-    <section class="presentazione my-5">
+    <section id="presentazione" class="presentazione my-5">
         <div class="container pt-5">
             <div class="row">
                 <div class="col-lg-5 presentazione-team col-12 d-none d-lg-flex"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="Staff"> </div>
@@ -52,7 +52,7 @@
     </section>
 
     <!-- Servizi -->
-    <section class="servizi mb-5 py-5">
+    <section id="servizi" class="servizi mb-5 py-5">
         <div class="container my-5">
             <div class="row">
                 <div class="col-12">
@@ -71,15 +71,15 @@
 
         <div class="container mt-5">
             <div class="pulsanti row justify-content-md-center mt-5 px-3">
-                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="#"><button class="py-3">Prenota Ora</button></a></div>
-                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="#"><button class="py-3">Chiedi un preventivo</button></a></div>
+                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it"><button class="py-3">Prenota Ora</button></a></div>
+                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://hotelbaby.comodohotel.it/"><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
 
     </section>
 
     <!-- Formule -->
-    <section class="formule my-5">
+    <section id="pacchetti" class="formule my-5">
         <div class="container pt-5">
             <div class="row justify-content-md-center">
                 <h2 class="col-12 col-md-8 col-lg-6">Le nostre formule</h2>
@@ -108,7 +108,7 @@
     </section>
 
     <!-- Galleria -->
-    <section class="galleria mb-5 py-5">
+    <section id="galleria" class="galleria mb-5 py-5">
         <div class="container my-5">
             <div class="row">
                 <div class="col-12">
@@ -123,7 +123,7 @@
     </section>
 
     <!-- Form -->
-    <section class="form my-5">
+    <section id="info" class="form my-5">
         <div class="container pt-5">
             <div class="row">
                 <div class="col-lg-8 col-12">

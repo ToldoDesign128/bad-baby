@@ -18,12 +18,12 @@
                 <div class="logo col-md-1 col-10"><a href="#" class=""><img src="<?php echo get_template_directory_uri() . '/assets/images/icon/Logo_foglia.svg';?>" alt=""></a></div>
                 <!-- Menu Desktop -->
                 <ul id="nav-items" class="col-md-11 m-0 p-0">
-                    <li><a href="#" class=""> Ci presentiamo </a></li>
-                    <li><a href="#" class=""> Servizi </a></li>
-                    <li><a href="#" class=""> Pacchetti </a></li>
-                    <li><a href="#" class=""> Info </a></li>
-                    <li><a href="#" class=""> Galleria </a></li>
-                    <li><a href="#" class=""><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
+                    <li><a href="#presentazione"> Ci presentiamo </a></li>
+                    <li><a href="#servizi"> Servizi </a></li>
+                    <li><a href="#pacchetti"> Pacchetti </a></li>
+                    <li><a href="#galleria"> Galleria </a></li>
+                    <li><a href="#info"> Info </a></li>
+                    <li><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it"><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
                 </ul>
                 <!-- Icona hamburger -->
                 <div class="hamburger hamburger--collapse col-2">
@@ -35,12 +35,12 @@
             <!-- Menu Mobile -->
             <div class="row mobile mt-5 ml-3">
                 <ul class="col-12">
-                    <li class="mobile-list-item my-3"><a href="#" class=""> Ci presentiamo </a></li>
-                    <li class="mobile-list-item my-3"><a href="#" class=""> Servizi </a></li>
-                    <li class="mobile-list-item my-3"><a href="#" class=""> Pacchetti </a></li>
-                    <li class="mobile-list-item my-3"><a href="#" class=""> Info </a></li>
-                    <li class="mobile-list-item my-3"><a href="#" class=""> Galleria </a></li>
-                    <li class="mobile-list-item my-3"><a href="#" class=""><button type="button" class="py-3 px-3"> Prenota ora </button></a></li>
+                    <li class="mobile-list-item my-3"><a href="#presentazione"> Ci presentiamo </a></li>
+                    <li class="mobile-list-item my-3"><a href="#servizi"> Servizi </a></li>
+                    <li class="mobile-list-item my-3"><a href="#pacchetti"> Pacchetti </a></li>
+                    <li class="mobile-list-item my-3"><a href="#galleria"> Galleria </a></li>
+                    <li class="mobile-list-item my-3"><a href="#info"> Info </a></li>
+                    <li class="mobile-list-item my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it"><button type="button" class="py-3 px-3"> Prenota ora </button></a></li>
                 </ul>
             </div>
         </div>        

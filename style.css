@@ -5111,11 +5111,12 @@ header .mobile ul {
 .servizi article img {
   width: 100%;
   height: 80%;
+  position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  display: block;
-  position: relative;
   border-radius: 10px 10px 0 0;
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
 }
 .servizi article h4 {
   padding: 1rem 0;
@@ -5125,12 +5126,25 @@ header .mobile ul {
   transition: all 0.4s ease-in-out;
 }
 .servizi article p {
-  display: none;
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  transition-delay: 0.2;
 }
 .servizi article:hover, .servizi article :focus, .servizi article :active {
   background-color: #26463a;
 }
+.servizi article:hover img, .servizi article :focus img, .servizi article :active img {
+  opacity: 0;
+}
 .servizi article:hover h4, .servizi article :focus h4, .servizi article :active h4 {
+  color: #DEF5E5;
+  border-top: solid 1px rgba(222, 245, 229, 0.6);
+  opacity: 1;
+}
+.servizi article:hover p, .servizi article :focus p, .servizi article :active p {
   color: #DEF5E5;
   opacity: 1;
 }
