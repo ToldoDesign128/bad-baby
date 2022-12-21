@@ -72,7 +72,7 @@
         <div class="container mt-5">
             <div class="pulsanti row justify-content-md-center mt-5 px-3">
                 <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it"><button class="py-3">Prenota Ora</button></a></div>
-                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://hotelbaby.comodohotel.it/"><button class="py-3">Chiedi un preventivo</button></a></div>
+                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://hotelbaby.comodohotel.it/"  ><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
 
@@ -132,12 +132,12 @@
                 </div>
                 <div class="col-lg-4 col-12">
                     <h2 class="mb-5">Info</h2>
-                    <p>Orario colazione:dalle 7.30 alle 11.00 <br> La sala ristorante si trova al piano rialzato <br> colazione extra 10€ a persona.</p>
                     <p>Orario check-in/check-out:</p>
                     <ul> 
                         <li>check-in: consegna camere dalle ore 14:00</li> 
                         <li>check-out: entro le ore 10:00Orario portineria: 24h</li> 
                     </ul>
+                    <p>Orario colazione:dalle 7.30 alle 11.00 <br> La sala ristorante si trova al piano rialzato <br> colazione extra 10€ a persona.</p>
                     <p>Orari Cassa: 8:00-21:00 la Direzione segnala che non vengono accettati assegni e american express </p>
                     <ul>
                        <li> Pagamenti con bonifico non possono essere accettati alla partenza. </li>
