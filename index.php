@@ -20,8 +20,8 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-xl-2 col-lg-4 col-md-6 col-12 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it"><button class="py-3">Prenota Ora</button></a></div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12 my-3"><a href="https://hotelbaby.comodohotel.it/"><button class="py-3">Chiedi un preventivo</button></a></div>
+                <div class="col-lg-3 col-md-6 col-12 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it"><button class="py-3">Prenota Ora</button></a></div>
+                <div class="col-lg-4 col-md-6 col-12 my-3"><a href="https://hotelbaby.comodohotel.it/"><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
     </section>
@@ -75,7 +75,6 @@
                 <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://hotelbaby.comodohotel.it/"  ><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
-
     </section>
 
     <!-- Formule -->

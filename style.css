@@ -5151,6 +5151,21 @@ header .mobile ul {
 .servizi .splide__pagination {
   display: none;
 }
+.servizi .icone .icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.servizi .icone .icon-item p {
+  text-align: center;
+  color: #DEF5E5;
+}
+.servizi .icone .icon-item svg {
+  height: 36px;
+  margin: 1rem;
+  width: auto;
+  fill: #DEF5E5;
+}
 
 @media (max-width: 767.98px) {
   .servizi h2 {

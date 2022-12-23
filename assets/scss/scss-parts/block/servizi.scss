@@ -1,5 +1,6 @@
 .servizi{
     background-color: $primary-color;
+
     h2{
         text-align: center;
         color: $secondary-color;
@@ -77,6 +78,25 @@
     }
     .splide__pagination{
         display:none;
+    }
+    .icone{
+
+        .icon-item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p{
+                text-align: center;
+                color: $secondary-color;
+            }
+            svg{
+                height: 36px;
+                margin: 1rem;
+                width: auto;
+                fill: $secondary-color;
+            }
+        }
     }
 }
 
