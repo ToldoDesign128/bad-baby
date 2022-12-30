@@ -3,7 +3,7 @@
 <main class="container-fluid m-0 p-0">
 
     <!-- Hero -->
-    <section class="hero">
+    <section id="hero" class="hero">
         <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
         <div class="overlay"></div>
         <!-- The HTML5 video element that will create the background video on the header -->
@@ -122,7 +122,7 @@
     </section>
 
     <!-- Form -->
-    <section id="info" class="form my-5">
+    <section id="info" class="form py-5">
         <div class="container pt-5">
             <div class="row">
                 <div class="col-lg-8 col-12">
@@ -148,7 +148,7 @@
     </section>
 
     <!-- Dove siamo -->
-    <section class="dove-siamo mb-5 py-5">
+    <section class="dove-siamo py-5">
         <div class="container my-5">
             <div class="row">
                 <div class="col-12">

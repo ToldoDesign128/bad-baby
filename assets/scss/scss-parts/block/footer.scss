@@ -1,4 +1,14 @@
 footer{
+    background-image: url("/wp-content/themes/bad-baby/assets/images/background/bg_baby_3.png");
+
+    svg{
+        max-height: 80px;
+        cursor: pointer;
+
+        .cls-1{
+            fill: $primary-color;
+        }
+    }
 
     ul{
         padding-left: 0;
