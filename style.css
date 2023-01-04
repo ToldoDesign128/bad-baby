@@ -5257,6 +5257,7 @@ header .mobile ul {
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #4e7e6c;
+  max-width: 90%;
 }
 .form form .wpcf7-submit {
   border-radius: 5px;
