@@ -5258,6 +5258,19 @@ header .mobile ul {
   border-radius: 5px;
   border: 1px solid #DEF5E5;
 }
+.form form input .wpcf7-form-control {
+  border-radius: 5px;
+  background: #DEF5E5;
+  border: 1px solid #4e7e6c;
+  color: #4e7e6c;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+.form form input .wpcf7-form-control:hover {
+  background-color: #4e7e6c;
+  color: #DEF5E5;
+  border: 1px solid #DEF5E5;
+}
 .form form textarea {
   min-height: 3rem;
   border-radius: 5px;
