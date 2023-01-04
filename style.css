@@ -5254,13 +5254,11 @@ header .mobile ul {
   font-size: 14px;
 }
 .form form input {
-  width: 80%;
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #DEF5E5;
 }
 .form form textarea {
-  width: 80%;
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #DEF5E5;
