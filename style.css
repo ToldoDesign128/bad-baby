@@ -5256,15 +5256,15 @@ header .mobile ul {
 .form form input {
   min-height: 3rem;
   border-radius: 5px;
-  border: 1px solid #DEF5E5;
+  border: 1px solid #4e7e6c;
 }
 .form form .wpcf7-submit {
-  max-width: 5rem;
   border-radius: 5px;
   background: #DEF5E5;
   border: 1px solid #4e7e6c;
   color: #4e7e6c;
   transition: all 0.2s ease-in-out;
+  padding: 0 2rem;
 }
 .form form .wpcf7-submit:hover {
   background-color: #4e7e6c;
