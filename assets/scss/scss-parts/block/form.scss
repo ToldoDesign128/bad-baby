@@ -4,4 +4,20 @@
             font-size: 14px;
         }
     }
+
+    form{
+        input{
+            width: 80%;
+            min-height: 3rem;
+            border-radius: 5px;
+            border: 1px solid $secondary-color;
+        }
+        textarea{
+            width: 80%;
+            min-height: 3rem;
+            border-radius: 5px;
+            border: 1px solid $secondary-color;
+        }
+
+    }
 }

@@ -5253,6 +5253,18 @@ header .mobile ul {
 .form ul li {
   font-size: 14px;
 }
+.form form input {
+  width: 80%;
+  min-height: 3rem;
+  border-radius: 5px;
+  border: 1px solid #DEF5E5;
+}
+.form form textarea {
+  width: 80%;
+  min-height: 3rem;
+  border-radius: 5px;
+  border: 1px solid #DEF5E5;
+}
 
 .dove-siamo {
   background-color: #4e7e6c;
