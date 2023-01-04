@@ -5128,7 +5128,7 @@ header .mobile ul {
 .servizi article p {
   position: absolute;
   top: 0;
-  padding: 1rem;
+  padding: 2rem;
   opacity: 0;
   transition: all 0.4s ease-in-out;
   transition-delay: 0.2;
@@ -5257,7 +5257,6 @@ header .mobile ul {
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #4e7e6c;
-  max-width: 90%;
 }
 .form form .wpcf7-submit {
   border-radius: 5px;
@@ -5275,7 +5274,7 @@ header .mobile ul {
 .form form textarea {
   min-height: 3rem;
   border-radius: 5px;
-  border: 1px solid #DEF5E5;
+  border: 1px solid #4e7e6c;
 }
 
 .dove-siamo {
