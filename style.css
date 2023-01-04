@@ -5258,7 +5258,7 @@ header .mobile ul {
   border-radius: 5px;
   border: 1px solid #DEF5E5;
 }
-.form form input .wpcf7-submit {
+.form form .wpcf7-submit {
   border-radius: 5px;
   background: #DEF5E5;
   border: 1px solid #4e7e6c;
@@ -5266,7 +5266,7 @@ header .mobile ul {
   transition: all 0.2s ease-in-out;
   width: 100%;
 }
-.form form input .wpcf7-submit:hover {
+.form form .wpcf7-submit:hover {
   background-color: #4e7e6c;
   color: #DEF5E5;
   border: 1px solid #DEF5E5;
