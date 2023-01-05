@@ -1,0 +1,28 @@
+.presentazione{
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 100%;
+        height: auto;
+        max-height: 500px;
+        border-radius: 10px;
+    }
+
+    .presentazione-team{
+        img{
+            max-height: 100%;
+        }
+    }
+
+    h2{
+        color: $dark-color;
+    }
+    p{
+        color: $black-color;
+    }
+    .firma{
+        margin-top: 2rem;
+        text-align: right;
+    }
+}

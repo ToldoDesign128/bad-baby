@@ -1,0 +1,62 @@
+footer{
+    background-image: url("/wp-content/themes/bad-baby/assets/images/background/bg_baby_3.png");
+
+    svg{
+        max-height: 80px;
+        cursor: pointer;
+
+        .cls-1{
+            fill: $primary-color;
+        }
+    }
+
+    ul{
+        padding-left: 0;
+
+        li{
+            list-style: none;
+            padding: 0.5rem 0;
+
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    color: $black-color;
+                }
+            }
+
+            .social{
+                display: flex;
+                align-items: center;
+                
+                a{
+                    svg{
+                        fill: $dark-color;
+                        &:hover{
+                            fill: $black-color;
+                        }
+                    }
+
+                    &:nth-child(2){
+                        margin: 0 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .credits{
+        background: $dark-color;
+        text-align: center;
+        padding: 0.5rem 0;
+
+        a{
+            text-decoration: none;
+
+            &:hover{
+                color: $secondary-color;
+            }
+        }
+    }
+
+}
