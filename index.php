@@ -38,6 +38,7 @@
                     <div class="col-12 d-lg-none my-5"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png'; ?>" loading=lazy alt="Hotel Baby"> </div>
                     <p class="col-12"> La gestione è familiare e custodisce con passione questa struttura da ormai 20 anni.</p>
                     <p class="col-12"> Il nostro hotel è il punto di partenza ideale per chi vuole scoprire Milano Marittima con la comodità e l’accoglienza che ti fanno sentire a casa. </p>
+                    <p class="firma">Liliana e Aldo</p>
                 </div>
             </div>
             <div class="row mt-md-5 mt-2">
@@ -134,7 +135,8 @@
                     <p>Orario check-in/check-out:</p>
                     <ul> 
                         <li>check-in: consegna camere dalle ore 14:00</li> 
-                        <li>check-out: entro le ore 10:00Orario portineria: 24h</li> 
+                        <li>check-out: entro le ore 10:00 </li> 
+                        <li>Orario portineria: 24h</li> 
                     </ul>
                     <p>Orario colazione:dalle 7.30 alle 11.00 <br> La sala ristorante si trova al piano rialzato <br> colazione extra 10€ a persona.</p>
                     <p>Orari Cassa: 8:00-21:00 la Direzione segnala che non vengono accettati assegni e american express </p>

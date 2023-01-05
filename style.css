@@ -5073,6 +5073,10 @@ header .mobile ul {
 .presentazione p {
   color: #212427;
 }
+.presentazione .firma {
+  margin-top: 2rem;
+  text-align: right;
+}
 
 .servizi {
   background-color: #4e7e6c;
@@ -5250,8 +5254,9 @@ header .mobile ul {
   display: none;
 }
 
-.form ul li {
-  font-size: 14px;
+.form ul {
+  padding-left: 0;
+  list-style: none;
 }
 .form form input {
   min-height: 3rem;
