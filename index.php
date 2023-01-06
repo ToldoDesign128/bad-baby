@@ -126,7 +126,7 @@
     <section id="info" class="form py-5">
         <div class="container pt-5">
             <div class="row">
-                <div class="col-lg-8 col-10">
+                <div class="col-lg-8 col-12">
                     <h2 class="mb-5">Hai delle domande?</h2>
                     <?php echo apply_shortcodes('[contact-form-7 id="16" title="Form di contatto"]'); ?>
                 </div>
