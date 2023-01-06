@@ -5,7 +5,9 @@
     }
 
     form{
+        max-width: 100%;
         input{
+            max-width: 100%;
             min-height: 3rem;
             border-radius: 5px;
             border: 1px solid $primary-color;

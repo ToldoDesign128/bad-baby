@@ -5258,7 +5258,11 @@ header .mobile ul {
   padding-left: 0;
   list-style: none;
 }
+.form form {
+  max-width: 100%;
+}
 .form form input {
+  max-width: 100%;
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #4e7e6c;
