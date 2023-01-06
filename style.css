@@ -5284,6 +5284,7 @@ header .mobile ul {
   border: 1px solid #DEF5E5;
 }
 .form form textarea {
+  max-width: 100%;
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #4e7e6c;
