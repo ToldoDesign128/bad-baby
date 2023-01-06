@@ -5261,6 +5261,9 @@ header .mobile ul {
 .form form {
   max-width: 100%;
 }
+.form form label {
+  max-width: 100%;
+}
 .form form input {
   max-width: 100%;
   min-height: 3rem;
