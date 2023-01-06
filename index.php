@@ -131,7 +131,7 @@
                     <?php echo apply_shortcodes('[contact-form-7 id="16" title="Form di contatto"]'); ?>
                 </div>
                 <div class="col-lg-4 col-12">
-                    <h2 class="mb-5 mt-md-0 mt-2">Info</h2>
+                    <h2 class="mb-5 mt-md-0 mt-5">Info</h2>
                     <p>Orario check-in/check-out:</p>
                     <ul> 
                         <li>check-in: consegna camere dalle ore 14:00</li> 
