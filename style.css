@@ -5192,9 +5192,6 @@ header .mobile ul {
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
 }
-.formule .card .card-formula:last-child {
-  background-image: url("/wp-content/themes/bad-baby/assets/images/background/bg_baby_4.png");
-}
 .formule .card .card-formula img {
   -o-object-fit: cover;
      object-fit: cover;
