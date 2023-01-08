@@ -4890,6 +4890,7 @@ html, body {
 header {
   background-color: #4e7e6c;
   position: fixed;
+  top: 0;
   z-index: 10;
   transition: all ease-in-out;
   transition-duration: 0.2s;
@@ -5345,4 +5346,15 @@ footer .credits a {
 }
 footer .credits a:hover {
   color: #DEF5E5;
+}
+
+.quattro {
+  margin: 5rem 0;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quattro h1 {
+  text-align: center;
 }

@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-8 col-md-10">
-                    <h1 class="display-3 my-3">Hotel Baby</h1>
+                    <h1 class="display-3 my-3">Hotel Baby B&B</h1>
                     <h3 class="mb-0">Nel cuore di Milano Marittima a pochi passi dal mare</h3>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="" class="col-md-4 col-12">
                         <div class="card-formula-text col-md-8 col-12">
                             <h4>B&B</h4>
-                            <p> Alla scoperta di Milano Marittima e dintorni, pernottamento e colazione. </p>
+                            <p> Alla scoperta di Milano Marittima e dintorni, pernottamento e colazione fino alle ore 11.00. In totale relax. </p>
                         </div>
                     </div>
                 </div>
@@ -98,8 +98,8 @@
                     <div class="card-formula row">
                         <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="" class="col-md-4 col-12">
                         <div class="card-formula-text col-md-8 col-12">
-                            <h4>B&B con Mare</h4>
-                            <p>B&B con l'aggiunta di lettini ed ombrellone in spiaggia</p>
+                            <h4>B&B con Spiaggia</h4>
+                            <p>B&B con l'aggiunta di lettini ed ombrellone in spiaggia che dista da noi 150mt.</p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         <li>check-out: entro le ore 10:00 </li> 
                         <li>Orario portineria: 24h</li> 
                     </ul>
-                    <p>Orario colazione:dalle 7.30 alle 11.00 <br> La sala ristorante si trova al piano rialzato <br> colazione extra 10€ a persona.</p>
+                    <p>Orario colazione:dalle 7.30 alle 11.00 <br> Colazione extra 10€ a persona.</p>
                     <p>Orari Cassa: 8:00-21:00 la Direzione segnala che non vengono accettati assegni e american express </p>
                     <ul>
                        <li> Pagamenti con bonifico non possono essere accettati alla partenza. </li>
