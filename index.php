@@ -87,7 +87,7 @@
             <div class="row my-5">
                 <div class="card col-12 col-md-6">
                     <div class="card-formula row">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="" class="col-md-4 col-12">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/b&b.jpg';?>" loading=lazy alt="" class="col-md-4 col-12">
                         <div class="card-formula-text col-md-8 col-12">
                             <h4>B&B</h4>
                             <p> Alla scoperta di Milano Marittima e dintorni, pernottamento e colazione fino alle ore 11.00. In totale relax. </p>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="card col-12 col-md-6">
                     <div class="card-formula row">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="" class="col-md-4 col-12">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/formula_beach.jpg';?>" loading=lazy alt="" class="col-md-4 col-12">
                         <div class="card-formula-text col-md-8 col-12">
                             <h4>B&B con Spiaggia</h4>
                             <p>B&B con l'aggiunta di lettini ed ombrellone in spiaggia che dista da noi 150mt.</p>
