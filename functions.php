@@ -115,7 +115,7 @@ add_action( 'admin_head', 'fix_svg' );
 
 function add_baby_scripts() {
     
-    wp_enqueue_style( 'splide-style', get_template_directory_uri() . '/assets/scss/splide/splide.min.css');
+    wp_enqueue_style( 'splide-style', get_template_directory_uri() . '/splide.min.css');
 
 	wp_enqueue_style( 'baby-style', get_template_directory_uri() . '/style.min.css');
 
