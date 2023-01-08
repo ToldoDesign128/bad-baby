@@ -18,9 +18,9 @@
                 <div class="col-lg-4 col-12">
                     <h2 class="mb-5">Contatti</h2>
                     <ul>
-                        <li><a href=""> info@hotelbaby.com </a></li>
-                        <li><a href=""> +39 0544 991784</a></li>
-                        <li><a href=""> WhatsApp</a></li>
+                        <li><a href="mailto:info@hotelbaby.com"> info@hotelbaby.com </a></li>
+                        <li><a href="tel:0544991784"> +39 0544 991784</a></li>
+                        <li><a href="https://wa.me/3336443820"> WhatsApp</a></li>
                         <li>
                             <div class="social mt-3">
                                 <a href="https://www.instagram.com/hotelbabymilanomarittima/">
