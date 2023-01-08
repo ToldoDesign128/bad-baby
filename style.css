@@ -4890,6 +4890,7 @@ html, body {
 header {
   background-color: #4e7e6c;
   position: fixed;
+  top: 0;
   z-index: 10;
   transition: all ease-in-out;
   transition-duration: 0.2s;
@@ -5192,9 +5193,6 @@ header .mobile ul {
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
 }
-.formule .card .card-formula:last-child {
-  background-image: url("/wp-content/themes/bad-baby/assets/images/background/bg_baby_4.png");
-}
 .formule .card .card-formula img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -5258,7 +5256,14 @@ header .mobile ul {
   padding-left: 0;
   list-style: none;
 }
+.form form {
+  max-width: 100%;
+}
+.form form label {
+  max-width: 100%;
+}
 .form form input {
+  max-width: 100%;
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #4e7e6c;
@@ -5277,6 +5282,7 @@ header .mobile ul {
   border: 1px solid #DEF5E5;
 }
 .form form textarea {
+  max-width: 100%;
   min-height: 3rem;
   border-radius: 5px;
   border: 1px solid #4e7e6c;
@@ -5340,4 +5346,15 @@ footer .credits a {
 }
 footer .credits a:hover {
   color: #DEF5E5;
+}
+
+.quattro {
+  margin: 5rem 0;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quattro h1 {
+  text-align: center;
 }

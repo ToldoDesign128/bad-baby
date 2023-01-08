@@ -3,6 +3,7 @@
 header{
     background-color: $primary-color;
     position: fixed;
+    top: 0;
     z-index: 10;
     transition: all ease-in-out;
     transition-duration: 0.2s;
