@@ -7,6 +7,7 @@
 					'post_status'       => 'publish',
 					'orderby'           => 'count',
 					'order'             => 'DESC',
+					'nopaging'             => 'true',
 				) );
 			while($loop->have_posts()) : $loop->the_post(); ?>	
 
