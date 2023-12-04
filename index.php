@@ -16,8 +16,8 @@
             <div class="row">
                 <div class="col-12 col-lg-8 col-md-10">
                     <h1 class="display-3 my-3">Hotel Baby B&B</h1>
-                    <h3 class="my-2">Nel cuore di Milano Marittima a pochi passi dal mare</h3>
-                    <h3 class="mb-0">PVi aspettiamo per la stagione 2024</h3>
+                    <h3 class="my-3">Nel cuore di Milano Marittima a pochi passi dal mare</h3>
+                    <h3 class="mb-0">Vi aspettiamo per la stagione 2024</h3>
                 </div>
             </div>
             <div class="row mt-5">
@@ -127,7 +127,7 @@
     <section id="info" class="form py-5">
         <div class="container pt-5">
             <div class="row">            
-                <div class="col-12">
+                <div class="col-12 text-center">
                     <h2 class="mb-5 mt-md-0 mt-5">Info</h2>
                     <p>Orario check-in/check-out:</p>
                     <ul> 
