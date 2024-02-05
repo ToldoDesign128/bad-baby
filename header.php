@@ -23,7 +23,7 @@
                     <li><a href="#pacchetti"> B&B </a></li>
                     <li><a href="#galleria"> Galleria </a></li>
                     <li><a href="#info"> Info </a></li>
-                    <li><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it" target="blank"><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
+                    <li><a href="https://booking.passepartout.cloud/booking?oidPortale=18466&lingua=it" target="blank"><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
                 </ul>
                 <!-- Icona hamburger -->
                 <div class="hamburger hamburger--collapse col-2">
@@ -40,7 +40,7 @@
                     <li class="mobile-list-item my-3"><a href="#pacchetti"> B&B </a></li>
                     <li class="mobile-list-item my-3"><a href="#galleria"> Galleria </a></li>
                     <li class="mobile-list-item my-3"><a href="#info"> Info </a></li>
-                    <li class="mobile-list-item my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it" target="blank"><button type="button" class="py-3 px-3"> Prenota ora </button></a></li>
+                    <li class="mobile-list-item my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=18466&lingua=it" target="blank"><button type="button" class="py-3 px-3"> Prenota ora </button></a></li>
                 </ul>
             </div>
         </div>        

@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-6 col-12 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it" target="blank"><button class="py-3">Prenota Ora</button></a></div>
+                <div class="col-lg-3 col-md-6 col-12 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=18466&lingua=it" target="blank"><button class="py-3">Prenota Ora</button></a></div>
                 <div class="col-lg-4 col-md-6 col-12 my-3"><a href="https://hotelbaby.comodohotel.it/" target="blank"><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
@@ -73,7 +73,7 @@
 
         <div class="container mt-5">
             <div class="pulsanti row justify-content-md-center mt-5 px-3">
-                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=10000&lingua=it" target="blank"><button class="py-3">Prenota Ora</button></a></div>
+                <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=18466&lingua=it" target="blank"><button class="py-3">Prenota Ora</button></a></div>
                 <div class="col-12 col-md-5 col-lg-4 my-3"><a href="https://hotelbaby.comodohotel.it/"  target="blank"><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
@@ -127,7 +127,7 @@
     <section id="info" class="form py-5">
         <div class="container pt-5">
             <div class="row">            
-                <div class="col-12 text-center">
+                <div class="col-12">
                     <h2 class="mb-5 mt-md-0 mt-5">Info</h2>
                     <p>Orario check-in/check-out:</p>
                     <ul> 
