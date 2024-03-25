@@ -4,7 +4,11 @@
   "description": "Custom theme for Bed &amp; Breakfast Baby in Milano Marittima",
   "main": "index.js",
   "scripts": {
-    "watch": "mix watch"
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
   },
   "repository": {
     "type": "git",
