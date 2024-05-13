@@ -22,7 +22,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-lg-3 col-md-6 col-12 my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=18466&lingua=it" target="blank"><button class="py-3">Prenota Ora</button></a></div>
-                <div class="col-lg-4 col-md-6 col-12 my-3"><a href="hotelbaby.comodohotel.it/" target="blank"><button class="py-3">Chiedi un preventivo</button></a></div>
+                <div class="col-lg-4 col-md-6 col-12 my-3"><a href="https://hotelbaby.comodohotel.it/" target="blank"><button class="py-3">Chiedi un preventivo</button></a></div>
             </div>
         </div>
     </section>
