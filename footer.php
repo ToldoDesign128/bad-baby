@@ -66,7 +66,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="credits col-12">
-                    <a href="mailto:fede.toldo96@gmail.com">Designed and develop by Federico Toldo</a>
+                    <a target="_blank" href="https://federicotoldo.com/">Designed and develop by Federico Toldo</a>
                 </div>
             </div>
         </div>
