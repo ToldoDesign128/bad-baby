@@ -44,7 +44,7 @@
             </div>
             <div class="row mt-md-5 mt-2">
                 <div class="col-12 py-md-5 py-2">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/presentazione2.jpg'; ?>" loading=lazy alt="Hotel Baby">
+                    <img style="object-position: center;" src="<?php echo get_template_directory_uri() . '/assets/images/picture/2024/DSC_1573.jpg'; ?>" loading=lazy alt="Hotel Baby">
                 </div>
             </div>
 
