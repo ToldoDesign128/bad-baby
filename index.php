@@ -31,12 +31,12 @@
     <section id="presentazione" class="presentazione my-5">
         <div class="container pt-5">
             <div class="row">
-                <div class="col-lg-5 presentazione-team col-12 d-none d-lg-flex"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png';?>" loading=lazy alt="Staff"> </div>
+                <div class="col-lg-5 presentazione-team col-12 d-none d-lg-flex"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/2024/DSC_1589.jpg';?>" loading=lazy alt="Staff"> </div>
                 <div class="col-lg-5 col-12 offset-lg-2 offset-0 row m-auto">
                     <h2 class="col-12 mb-md-5 mb-3"> Ci presentiamo </h2>
                     <p class="col-12 mt-md-5 mt-3"> L’Hotel Baby B&B è in centro a Milano Marittima, si affaccia sul Viale due Giugno a pochi passi dalla spiaggia. </p>
                     <p class="col-12"> Da noi puoi trovare il tuo posto al mare, la struttura è medio piccola, ideale per quei viaggiatori che non vogliono vincolarsi alla pensione completa e preferiscono rimanere liberti di scoprire tutte le proposte che offre la nostra meravigliosa località. </p>
-                    <div class="col-12 d-lg-none my-5"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/Staff_Baby_2022.png'; ?>" loading=lazy alt="Hotel Baby"> </div>
+                    <div class="col-12 d-lg-none my-5"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/2024/DSC_1589.jpg'; ?>" loading=lazy alt="Hotel Baby"> </div>
                     <p class="col-12"> Siamo in pieno centro Milano marittima, due passi dal mare e dalla passeggiata serale tra i negozi, dalla struttura inoltre puoi raggiungere Cervia anche a piedi in poco più di 700 metri.</p>
                     <p class="col-12"> La gestione è famigliare e proprio per questo il nostro impegno è volto nel far sentire a casa i nostri ospiti, custodiamo questa struttura da ormai 20 anni facendo del nostro lavoro una grande passione. </p>
                     <p class="firma">Liliana e Aldo</p>
@@ -44,7 +44,7 @@
             </div>
             <div class="row mt-md-5 mt-2">
                 <div class="col-12 py-md-5 py-2">
-                    <img style="object-position: center;" src="<?php echo get_template_directory_uri() . '/assets/images/picture/2024/DSC_1573.jpg'; ?>" loading=lazy alt="Hotel Baby">
+                    <img style="object-position: center; max-height:650px;" src="<?php echo get_template_directory_uri() . '/assets/images/picture/2024/DSC_1573.jpg'; ?>" loading=lazy alt="Hotel Baby">
                 </div>
             </div>
 
