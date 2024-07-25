@@ -17,7 +17,7 @@
                 <div class="col-12 col-lg-8 col-md-10">
                     <h1 class="display-3 my-3">Hotel Baby B&B</h1>
                     <h3 class="my-3">Nel cuore di Milano Marittima a pochi passi dal mare</h3>
-                    <h3 class="mb-0">Vi aspettiamo per la stagione 2024</h3>
+                    <!-- <h3 class="mb-0">Vi aspettiamo per la stagione 2024</h3> -->
                 </div>
             </div>
             <div class="row mt-5">
