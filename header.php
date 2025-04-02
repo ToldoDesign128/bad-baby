@@ -42,6 +42,8 @@
                     <li class="mobile-list-item my-3"><a href="#galleria"> Galleria </a></li>
                     <li class="mobile-list-item my-3"><a href="#info"> Info </a></li>
                     <li class="mobile-list-item my-3"><a href="https://booking.passepartout.cloud/booking?oidPortale=18466&lingua=it" target="blank"><button type="button" class="py-3 px-3"> Prenota ora </button></a></li>
+                    <li class="mobile-list-item my-3"><a href="https://booking.passepartout.cloud/booking/formv1?oidPortale=18466&lingua=it" target="blank"><button type="button" class="py-3 px-3">Chiedi un preventivo</button></a></li>
+
                 </ul>
             </div>
         </div>        
