@@ -24,6 +24,7 @@
                     <li><a href="#galleria"> Galleria </a></li>
                     <li><a href="#info"> Info </a></li>
                     <li><a href="https://booking.passepartout.cloud/booking?oidPortale=18466&lingua=it" target="blank"><button type="button" class="py-1 px-3">Prenota ora</button></a></li>
+                    <li><a href="https://booking.passepartout.cloud/booking/formv1?oidPortale=18466&lingua=it" target="blank"><button type="button" class="py-1 px-3">Chiedi un preventivo</button></a></li>
                 </ul>
                 <!-- Icona hamburger -->
                 <div class="hamburger hamburger--collapse col-2">
