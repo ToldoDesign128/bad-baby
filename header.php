@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="it" class="m-0">
+
 <head>
     <meta <?php bloginfo('charset'); ?>>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#417BC7">
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <?php wp_head(); ?>
+
+    <script async src="https://static.elfsightwidget.com/platform/platform.js" data-partner="hotelsreputation"></script>
+    <script async src="https://cdn.hotelverification.com/verify.js" data-site-id="12648" data-client="reviewsummary" data-hash="53e73er9f33fp5a6d310f1n1c11b7f30"></script>
+
+
 </head>
-    
+
 <body>
     <header class="container-fluid py-3">
-        <div  class="container menu">
+        <div class="container menu">
             <nav class="row align-items-center">
                 <!-- Logo -->
-                <div class="logo col-md-1 col-10"><a href="#hero" class=""><img src="<?php echo get_template_directory_uri() . '/assets/images/icon/Logo_foglia.svg';?>" alt=""></a></div>
+                <div class="logo col-md-1 col-10"><a href="#hero" class=""><img src="<?php echo get_template_directory_uri() . '/assets/images/icon/Logo_foglia.svg'; ?>" alt=""></a></div>
                 <!-- Menu Desktop -->
                 <ul id="nav-items" class="col-md-11 m-0 p-0">
                     <li><a href="#presentazione"> Ci presentiamo </a></li>
@@ -46,5 +52,7 @@
 
                 </ul>
             </div>
-        </div>        
+        </div>
     </header>
+
+    <div class="elfsight-app-e31202b8-8895-42d7-89ec-a6c0f20ea3a5" data-elfsight-app-lazy></div>

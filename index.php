@@ -39,12 +39,12 @@
                     <div class="col-12 d-lg-none my-5"> <img src="<?php echo get_template_directory_uri() . '/assets/images/picture/2024/DSC_1589.jpg'; ?>" loading=lazy alt="Hotel Baby"> </div>
                     <p class="col-12"> Ci troviamo nel centro di Milano Marittima,a due passi dal mare e dai negozi. A soli 700 metri si trova inoltre la città di Cervia, tranquillamente raggiungibile a piedi.</p>
                     <p class="col-12"> La gestione familiare e la passione per il nostro lavoro sono gli ingredienti per fare sentire a casa i nostri ospiti da oltre 20 anni. </p>
-                    <p class="firma">Liliana e Aldo</p>
+                    <p class="firma">Liliana.</p>
                 </div>
             </div>
             <div class="row mt-md-5 mt-2">
                 <div class="col-12 py-md-5 py-2">
-                    <img style="object-position: center; max-height:650px;" src="<?php echo get_template_directory_uri() . '/assets/images/picture/2024/DSC_1573.jpg'; ?>" loading=lazy alt="Hotel Baby">
+                    <img style="object-position: center; max-height:650px;" src="<?php echo get_template_directory_uri() . '/assets/images/picture/2025/Staff2025.jpg'; ?>" loading=lazy alt="Staff Hotel Baby">
                 </div>
             </div>
 
